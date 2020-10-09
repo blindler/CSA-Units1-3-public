@@ -13,11 +13,26 @@ class Tester {
 		String b = a;
 		String c = "first";
 
-		System.out.println(a == c);
+	  String s1 = new String("Hi There");
+	  String s2 = new String("Hi There");
+	  String s3 = s1;
+	  System.out.println((s1 == s2));
+	  System.out.println((s1.equals(s2)));
+	  System.out.println((s1 == s3));
+	  System.out.println((s2.equals(s3)));
 
-		int temp = 5 + 5;
-		System.out.println("55" + temp);
 
+
+		int low = 99;
+		int high = -99;
+		for ( int i = 0; i < 10000; i++){
+			double value = Math.random();
+			int num = (int) (value * 5) + 5;
+			if (num < low) low = num;
+			if (num > high) high = num;
+		}
+
+	  System.out.println(low +": " + high);
 
   }
 }

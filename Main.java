@@ -4,7 +4,11 @@ class Main {
 		Robot b = new Robot("Robbie");
 
     // i'm here from IntelliJ - -
-		
-		System.out.println(a.equals(b));
+		String s1 = "hey";
+		String s2 = "hey";
+		System.out.println(s2 == s1);
+
+
+
   }
 }
