@@ -3,7 +3,7 @@ class Main {
     Robot a = new Robot("Robbie");
 		Robot b = new Robot("Robbie");
 
-    // i'm here from pycharm - -
+    // i'm here from IntelliJ - -
 		
 		System.out.println(a.equals(b));
   }
